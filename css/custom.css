@@ -1,0 +1,108 @@
+.carousel-caption{
+    background-color: rgba(0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.team .col-lg-4 {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider{
+    margin: 3rem 0;
+}
+
+
+.footer-section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+@media (min-width: 1200px) {
+    .feature-heading {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Footer                                                                                        */
+/* ********************************************************************************************* */
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+
+/* ********************************************************************************************* */
+/* copyright                                                                                        */
+/* ********************************************************************************************* */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: dimgrey;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
